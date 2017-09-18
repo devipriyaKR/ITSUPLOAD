@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ITS.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Indian Taxi Service - NJ-NYC</title>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/main.css" />		
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        	
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+       <header id="header">
+				<a href="#" class="image avatar"><img src="images/logo6.png" alt=""/></a>
+				<h1>Indian Taxi Service</h1><br />
+				<br />
+           <h1>Call Us : +1 201.464.3841 , 201.656.3435</h1>
+                <a href="#" class="image avatar"><img src="images/Taxi7.jpg"  alt="" /></a> 
+                   
+                <br />
+                <%--<h1> Perfect taxi service for more than a decade </h1>--%>
+				<%--<a href="http://html5up.net">Team of Professional Drivers</a>.</h1>--%>
+                <br />
+      </header>
+   
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                   
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+    <footer id="footer">
+                            <%--<h2>Call Us : +1 201.464.3841 , 201.656.3435</h2>--%>
+                       <a href="#booking">Online Booking</a>
+             		<%--<ul class="icons">                               
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>--%>
+				<ul class="copyright">
+					<%--<li>&copy; Untitled</li>--%>
+                    <li>Design: <a href="http://itwebappsolutions.com/Home.aspx">ITWebappSolutions</a></li>
+				</ul>
+			</footer>
+    <script src="js/jquery.min.js"></script>
+			<script src="js/jquery.poptrox.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="js/main.js"></script>
+
+</body>
+</html>
