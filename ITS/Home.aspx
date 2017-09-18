@@ -15,7 +15,7 @@
                             <li><a href="#contact" class="button">Contact Us</a></li>
 						</ul>
                             <h2><strong>Indian Taxi Service - NJ & NYC </strong><br /></h2>
-                            <h3> Most Preferred and Affordable Taxi Service <br />
+                            <h3> Most Preferred and Affordable Taxi Service in Newjersy  <br />
 							</h3>
 						</header>
                         <div class="row">
